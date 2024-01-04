@@ -5,7 +5,11 @@
 // 
 
 
-// Ваш код ..
+const name = document.querySelector("[name='fio']").value;
+const phoneNumber = document.querySelector("[name='phone']").value;
+const dataOfBirth = document.querySelector("[name='birthday']").value;
+const emailAddress = document.querySelector("[name='email']").value;
+
 
 
 module.exports = {
