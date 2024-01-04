@@ -7,12 +7,18 @@
 //третій елемент - змінна thirdEl
 // для перевірки завдання запустити команду npx jest task1.test.js
 
+const list = document.getElementById("list")
 
+firstEl = list.firstElementChild.textContent;
+lastEl = list.lastElementChild.textContent;
+secondtEl = list.children[1].textContent;
+fourthEl = list.children[3].textContent;
+thirdtEl = list.children[2].textContent;
 
-// module.exports = {
-//   firstEl,
-//   lastEl,
-//   secondtEl,
-//   fourthEl,
-//   thirdtEl,
-// };
+ module.exports = {
+   firstEl,
+   lastEl,
+   secondtEl,
+   fourthEl,
+   thirdtEl,
+ };
